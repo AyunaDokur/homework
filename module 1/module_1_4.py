@@ -1,0 +1,8 @@
+my_string = input('Введите текст: ')
+string_length = len(my_string)
+print(string_length)
+print(my_string.upper())
+print(my_string.lower())
+print(my_string.replace(' ', '' ))
+print(my_string[0])
+print(my_string[string_length-1]) # или print(my_string[-1])
