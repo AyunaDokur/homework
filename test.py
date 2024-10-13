@@ -1,24 +1,31 @@
-import random
-list_res = []
-def rand_first_number():
-    n = random.randint(3, 10)
-    return n
-def password_result(n):
-    for i in range(0, n):
-        for j in range(1,i):
-            #print(i)
-            #sum_of_pair = j+i
-            res = n%(j+i)
-            if res == 0:
-                list_res.append(i)
-                list_res.append(j)
-            #print(i, j, sum_of_pair, res)
-    #list_res.reverse()
-    print(list_res)
-        #list_res.clear()
+counter = 0
 
+def calculate_structure_sum(*args):
+    global counter
+    args = list(*args)
+    for i in args:
+        if isinstance(i, list) or isinstance(i, tuple) or isinstance(i, set):
+            calculate_structure_sum(i)
+        if isinstance(i, dict):
+            for j in i:
+                counter += len(j)
+                if isinstance(i[j], int):
+                    counter += i[j]
+                else:
+                    calculate_structure_sum(i[j])
+        if isinstance(i, str):
+            counter += len(i)
+        if isinstance(i, int):
+            counter += i
+    return counter
 
+data_structure = [
+[1, 2, 3],
+{'a': 4, 'b': 5},
+(6, {'cube': 7, 'drum': 8}),
+"Hello",
+((), [{(2, 'Urban', ('Urban2', 35))}])
+]
 
-first_number = rand_first_number()
-print(first_number)
-password_result(first_number)
+result = calculate_structure_sum(data_structure)
+print(result)

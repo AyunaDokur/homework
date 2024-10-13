@@ -4,10 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bca84d63-c7fc-40e3-8a52-7c12b3bd4150" name="Changes" comment="16/09/24">
-      <change afterPath="$PROJECT_DIR$/module_1_3.py" afterDir="false" />
+    <list default="true" id="bca84d63-c7fc-40e3-8a52-7c12b3bd4150" name="Changes" comment="09.10">
+      <change afterPath="$PROJECT_DIR$/calc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_1_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_1_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_1_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_1_6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_2_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_2_2_second.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_2_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_2_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_2_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_2_hard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_3_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_3_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_3_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_3_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strings/strings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/veriables.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +53,19 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "state": "MERGED",
-      "assignee": "AyunaDokur"
+      &quot;state&quot;: &quot;MERGED&quot;,
+      &quot;assignee&quot;: &quot;AyunaDokur&quot;
     }
   ],
-  "lastFilter": {}
-}]]></component>
+  &quot;lastFilter&quot;: {}
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/AyunaDokur/homework&quot;,
-    &quot;accountId&quot;: &quot;eb618897-4292-481e-b56b-806b6bbadc1c&quot;
+    &quot;url&quot;: &quot;https://github.com/AyunaDokur/homework.git&quot;,
+    &quot;accountId&quot;: &quot;02fe448e-7d20-4be1-977d-234edea7eb27&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -61,10 +79,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.calc.executor": "Run",
     "Python.lesson0.executor": "Run",
     "Python.main.executor": "Run",
     "Python.module_1_3.executor": "Run",
+    "Python.module_3_1.executor": "Run",
+    "Python.module_3_2.executor": "Run",
+    "Python.module_3_3.executor": "Run",
+    "Python.module_3_4.executor": "Run",
+    "Python.module_3_hard.executor": "Run",
+    "Python.recursion.executor": "Run",
     "Python.strings.executor": "Run",
+    "Python.test.executor": "Run",
     "Python.tets1.executor": "Run",
     "Python.veriables.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -85,7 +111,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
@@ -130,7 +156,47 @@
       <option name="project" value="LOCAL" />
       <updated>1726743163062</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="09.10">
+      <option name="closed" value="true" />
+      <created>1728468898206</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728468898206</updated>
+    </task>
+    <task id="LOCAL-00006" summary="09.10">
+      <option name="closed" value="true" />
+      <created>1728470298193</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728470298193</updated>
+    </task>
+    <task id="LOCAL-00007" summary="09.10">
+      <option name="closed" value="true" />
+      <created>1728473556749</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728473556749</updated>
+    </task>
+    <task id="LOCAL-00008" summary="09.10">
+      <option name="closed" value="true" />
+      <created>1728485581490</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728485581490</updated>
+    </task>
+    <task id="LOCAL-00009" summary="09.10">
+      <option name="closed" value="true" />
+      <created>1728487300113</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728487300113</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +212,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="16/09/24" />
-    <option name="LAST_COMMIT_MESSAGE" value="16/09/24" />
+    <MESSAGE value="09.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="09.10" />
   </component>
 </project>
