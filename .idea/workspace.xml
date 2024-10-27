@@ -4,28 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bca84d63-c7fc-40e3-8a52-7c12b3bd4150" name="Changes" comment="13.10">
-      <change afterPath="$PROJECT_DIR$/calc.py" afterDir="false" />
+    <list default="true" id="bca84d63-c7fc-40e3-8a52-7c12b3bd4150" name="Changes" comment="20.10">
+      <change afterPath="$PROJECT_DIR$/module 5/module_5_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_1_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_1_4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_1_5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_1_6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_2_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_2_2_second.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_2_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_2_4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_2_5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_2_hard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_3_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_3_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_3_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_3_4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings/strings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variables/veriables.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +53,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2m8dKkE4i64muIruTmTFynjgLec" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -88,6 +71,8 @@
     "Python.module_3_3.executor": "Run",
     "Python.module_3_4.executor": "Run",
     "Python.module_3_hard.executor": "Run",
+    "Python.module_4_1.executor": "Run",
+    "Python.module_5_1.executor": "Run",
     "Python.recursion.executor": "Run",
     "Python.strings.executor": "Run",
     "Python.test.executor": "Run",
@@ -105,6 +90,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\graci\PycharmProjects\homework" />
       <recent name="D:\projectHM\pythonProject\strings" />
     </key>
   </component>
@@ -204,7 +190,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728836439268</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="13.10">
+      <option name="closed" value="true" />
+      <created>1728836480254</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728836480254</updated>
+    </task>
+    <task id="LOCAL-00012" summary="13.10">
+      <option name="closed" value="true" />
+      <created>1728838496399</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728838496399</updated>
+    </task>
+    <task id="LOCAL-00013" summary="20.10">
+      <option name="closed" value="true" />
+      <created>1729448245949</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729448245949</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +232,7 @@
     <MESSAGE value="16/09/24" />
     <MESSAGE value="09.10" />
     <MESSAGE value="13.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="13.10" />
+    <MESSAGE value="20.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.10" />
   </component>
 </project>
