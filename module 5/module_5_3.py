@@ -50,12 +50,12 @@ class House:
         return self
 
     def __radd__(self, value):
-        self.number_of_floors = value + self.number_of_floors
-        return self
+        #self.number_of_floors = value + self.number_of_floors
+        return self + value
 
     def __iadd__(self, value):
-        self.number_of_floors += value
-        return self
+        #self.number_of_floors += value
+        return self + value
 
     def go_to(self, new_floor):
         if new_floor > self.number_of_floors or new_floor < 1:
