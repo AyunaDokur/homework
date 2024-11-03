@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bca84d63-c7fc-40e3-8a52-7c12b3bd4150" name="Changes" comment="27.10">
+    <list default="true" id="bca84d63-c7fc-40e3-8a52-7c12b3bd4150" name="Changes" comment="28.10">
+      <change afterPath="$PROJECT_DIR$/module 5/module_5_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +73,8 @@
     "Python.module_3_hard.executor": "Run",
     "Python.module_4_1.executor": "Run",
     "Python.module_5_1.executor": "Run",
+    "Python.module_5_2.executor": "Run",
+    "Python.module_5_3.executor": "Run",
     "Python.recursion.executor": "Run",
     "Python.strings.executor": "Run",
     "Python.test.executor": "Run",
@@ -221,7 +224,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730046962518</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="28.10">
+      <option name="closed" value="true" />
+      <created>1730123566624</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1730123566624</updated>
+    </task>
+    <task id="LOCAL-00016" summary="28.10">
+      <option name="closed" value="true" />
+      <created>1730123587803</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1730123587803</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,6 +260,7 @@
     <MESSAGE value="13.10" />
     <MESSAGE value="20.10" />
     <MESSAGE value="27.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="27.10" />
+    <MESSAGE value="28.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="28.10" />
   </component>
 </project>
