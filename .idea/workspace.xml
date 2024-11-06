@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bca84d63-c7fc-40e3-8a52-7c12b3bd4150" name="Changes" comment="03.11">
-      <change afterPath="$PROJECT_DIR$/module 5/module_5_3.py" afterDir="false" />
+    <list default="true" id="bca84d63-c7fc-40e3-8a52-7c12b3bd4150" name="Changes" comment="04.11">
+      <change afterPath="$PROJECT_DIR$/module 6/module_6_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +49,9 @@
     &quot;accountId&quot;: &quot;02fe448e-7d20-4be1-977d-234edea7eb27&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -75,6 +78,8 @@
     "Python.module_5_1.executor": "Run",
     "Python.module_5_2.executor": "Run",
     "Python.module_5_3.executor": "Run",
+    "Python.module_5_4.executor": "Run",
+    "Python.module_6_1.executor": "Run",
     "Python.recursion.executor": "Run",
     "Python.strings.executor": "Run",
     "Python.test.executor": "Run",
@@ -95,6 +100,35 @@
       <recent name="C:\Users\graci\PycharmProjects\homework" />
       <recent name="D:\projectHM\pythonProject\strings" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="module_5_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="homework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/module 5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module 5/module_5_4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.module_5_4" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -248,7 +282,31 @@
       <option name="project" value="LOCAL" />
       <updated>1730658634414</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="03.11">
+      <option name="closed" value="true" />
+      <created>1730658778616</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1730658778616</updated>
+    </task>
+    <task id="LOCAL-00019" summary="0.11">
+      <option name="closed" value="true" />
+      <created>1730714111067</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1730714111067</updated>
+    </task>
+    <task id="LOCAL-00020" summary="04.11">
+      <option name="closed" value="true" />
+      <created>1730714131274</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1730714131274</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,6 +328,8 @@
     <MESSAGE value="27.10" />
     <MESSAGE value="28.10" />
     <MESSAGE value="03.11" />
-    <option name="LAST_COMMIT_MESSAGE" value="03.11" />
+    <MESSAGE value="0.11" />
+    <MESSAGE value="04.11" />
+    <option name="LAST_COMMIT_MESSAGE" value="04.11" />
   </component>
 </project>
