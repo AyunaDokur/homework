@@ -1,26 +1,22 @@
 from itertools import count
 from os.path import split
 
-
 class WordsFinder:
 
     def __init__(self, *file_names):
-        self.file_names = []
-        for name in file_names:
-            self.file_names.append(name)
+        self.file_names = list(file_names)
 
     def get_all_words(self):
         all_words = {}
-        p = [',', '.', '=', '!', '?', ';', ':', ' - ']
+        punctuation = [',', '.', '=', '!', '?', ';', ':', ' - ']
         for i in self.file_names:
             words_of_file = []
             with open(i, encoding = 'utf-8') as file:
                 for line in file:
-                    split_string = line.split()
-                    for word in split_string:
-                        for s in p:
-                            if s in word:
-                                word = word.replace(s, '')
+                    for word in line.split():
+                        for symbol in word: #проверка слова посимвольно на наличие знака из списка punctuation
+                            if symbol in punctuation:
+                                word = word.replace(symbol, '')
                         words_of_file.append(word.lower())
                     all_words[i] = words_of_file
         return all_words
