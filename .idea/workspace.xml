@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bca84d63-c7fc-40e3-8a52-7c12b3bd4150" name="Changes" comment="17.11.2024">
-      <change afterPath="$PROJECT_DIR$/module 7/module_7_4.py" afterDir="false" />
+    <list default="true" id="bca84d63-c7fc-40e3-8a52-7c12b3bd4150" name="Changes" comment="24.11.2024">
+      <change afterPath="$PROJECT_DIR$/module 8/module_8_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +86,7 @@
     "Python.module_7_2.executor": "Run",
     "Python.module_7_3.executor": "Run",
     "Python.module_7_4.executor": "Run",
+    "Python.module_8_1.executor": "Run",
     "Python.recursion.executor": "Run",
     "Python.string_formatting.executor": "Run",
     "Python.strings.executor": "Run",
@@ -402,7 +402,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731876636727</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="24.11.2024">
+      <option name="closed" value="true" />
+      <created>1732474875645</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1732474875645</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -432,6 +440,7 @@
     <MESSAGE value="12.11.2024" />
     <MESSAGE value="16.11.2024" />
     <MESSAGE value="17.11.2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="17.11.2024" />
+    <MESSAGE value="24.11.2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="24.11.2024" />
   </component>
 </project>
