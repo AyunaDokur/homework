@@ -1,20 +1,26 @@
+class ZeroValueError(ValueError):
+    pass
+
 def is_prime(func):
     def wrapper(a,b,c):
         n = func(a,b,c)
-        d = 2
-        while d * d <= n and n % d != 0:
-            d += 1
         print(n)
-        if d*d > n:
+        if n <= 1:
+            raise ZeroValueError()
+        if n == 2:
             return 'Простое'
-        else:
-            return 'Составное'
+        for i in range(2, n // 2):
+            if n % i == 0:
+                return 'Составное'
+            return 'Простое'
     return wrapper
 
 @is_prime
 def sum_three(a,b,c):
     return a+b+c
 
-
-result = sum_three(2, 3, 6)
-print(result)
+try:
+    result = sum_three(0, 0, 0)
+    print(result)
+except ZeroValueError:
+    print('Число не является ни простым, ни составным')
