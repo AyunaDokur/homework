@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bca84d63-c7fc-40e3-8a52-7c12b3bd4150" name="Changes" comment="01.12.2024">
-      <change afterPath="$PROJECT_DIR$/module 9/module_9_3.py" afterDir="false" />
+    <list default="true" id="bca84d63-c7fc-40e3-8a52-7c12b3bd4150" name="Changes" comment="08.12.2024">
+      <change afterPath="$PROJECT_DIR$/module 10/module_10_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module 10/module_10_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/module 10/module_10_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,51 +65,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.calc.executor": "Run",
-    "Python.lesson0.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.module_1_3.executor": "Run",
-    "Python.module_3_1.executor": "Run",
-    "Python.module_3_2.executor": "Run",
-    "Python.module_3_3.executor": "Run",
-    "Python.module_3_4.executor": "Run",
-    "Python.module_3_hard.executor": "Run",
-    "Python.module_4_1.executor": "Run",
-    "Python.module_5_1.executor": "Run",
-    "Python.module_5_2.executor": "Run",
-    "Python.module_5_3.executor": "Run",
-    "Python.module_5_4.executor": "Run",
-    "Python.module_6_1.executor": "Run",
-    "Python.module_6_2.executor": "Run",
-    "Python.module_6_3.executor": "Run",
-    "Python.module_7_1.executor": "Run",
-    "Python.module_7_2.executor": "Run",
-    "Python.module_7_3.executor": "Run",
-    "Python.module_7_4.executor": "Run",
-    "Python.module_8_1.executor": "Run",
-    "Python.module_8_2.executor": "Run",
-    "Python.module_8_3.executor": "Run",
-    "Python.module_9_1.executor": "Run",
-    "Python.module_9_2.executor": "Run",
-    "Python.module_9_3.executor": "Run",
-    "Python.recursion.executor": "Run",
-    "Python.string_formatting.executor": "Run",
-    "Python.strings.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.tets1.executor": "Run",
-    "Python.veriables.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/projectHM/pythonProject",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.calc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson0.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_10_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_1_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_3_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_3_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_3_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_3_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_3_hard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_4_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_5_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_5_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_5_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_5_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_6_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_6_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_6_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_7_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_7_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_7_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_7_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_8_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_8_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_8_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_9_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_9_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_9_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_9_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_9_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_9_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_9_7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.recursion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.string_formatting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.strings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tets1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.veriables.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projectHM/pythonProject&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": []
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: []
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\graci\PycharmProjects\homework" />
@@ -455,7 +462,63 @@
       <option name="project" value="LOCAL" />
       <updated>1733078827202</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="01.12.2024">
+      <option name="closed" value="true" />
+      <created>1733081273712</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1733081273712</updated>
+    </task>
+    <task id="LOCAL-00039" summary="02.12.2024">
+      <option name="closed" value="true" />
+      <created>1733090688343</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1733090688343</updated>
+    </task>
+    <task id="LOCAL-00040" summary="02.12.2024">
+      <option name="closed" value="true" />
+      <created>1733168021472</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1733168021472</updated>
+    </task>
+    <task id="LOCAL-00041" summary="02.12.2024">
+      <option name="closed" value="true" />
+      <created>1733169103860</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1733169103860</updated>
+    </task>
+    <task id="LOCAL-00042" summary="02.12.2024">
+      <option name="closed" value="true" />
+      <created>1733172141558</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1733172141558</updated>
+    </task>
+    <task id="LOCAL-00043" summary="02.12.2024">
+      <option name="closed" value="true" />
+      <created>1733254715035</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1733254715035</updated>
+    </task>
+    <task id="LOCAL-00044" summary="08.12.2024">
+      <option name="closed" value="true" />
+      <created>1733682998278</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1733682998278</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -490,6 +553,8 @@
     <MESSAGE value="27.11.2024" />
     <MESSAGE value="28.11.2024" />
     <MESSAGE value="01.12.2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="01.12.2024" />
+    <MESSAGE value="02.12.2024" />
+    <MESSAGE value="08.12.2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="08.12.2024" />
   </component>
 </project>
